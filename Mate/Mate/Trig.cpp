@@ -1,15 +1,15 @@
 #include "Trig.h"
-#include <math.h>
+#include <cmath>
 #define PI 3.1415926536
 #include <iostream>
 
 using namespace std;
-Trig::Trig(float x) {
+Trig::Trig(double x) {
 	this->x = x;
 }
 
-void Trig::Ang(float x) {
-    float rad, seno, coseno, tang;
+void Trig::Ang(double x) {
+    double rad, seno, coseno, tang;
     rad = x * PI / 180;
     seno = sin(rad);
     coseno = cos(rad);

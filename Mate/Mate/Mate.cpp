@@ -12,7 +12,7 @@ int main()
 	char resp;
 	bool rep;
 	int opc, fila_A, columna_A, fila_B, columna_B;
-	float x = 0;
+	double x;
 	do {
 		cout << "¿Que desea realizar?\n 1.Multiplicar matrices \n 2.Sumar matrices \n 3.Trig/Angulo \n 0. Salir \nSeleccione opcion:";
 		cin >> opc;

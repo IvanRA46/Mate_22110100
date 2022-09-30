@@ -2,9 +2,9 @@
 class Trig
 {
 private:
-	float x;
+	double x;
 public:
-	Trig(float x);
-	void Ang(float x);
+	Trig(double x);
+	void Ang(double x);
 };
 
